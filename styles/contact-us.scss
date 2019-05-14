@@ -142,7 +142,7 @@ body {
                    flex-flow: column nowrap;
                    padding: 3%;
                    .spotlight__image {
-                       height: 90%;
+                       height: inherit;
                        width: 100%;
                        object-fit: cover;
                    }

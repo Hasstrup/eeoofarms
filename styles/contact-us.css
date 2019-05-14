@@ -177,7 +177,7 @@ body .__main__body {
         flex-flow: column nowrap;
         padding: 3%; }
         body .__main__body .main__body__section.__two__ .__image__holder .spotlight__image {
-          height: 90%;
+          height: inherit;
           width: 100%;
           -o-object-fit: cover;
           object-fit: cover; }
