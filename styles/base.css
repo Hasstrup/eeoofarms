@@ -1,0 +1,212 @@
+body {
+  margin: 0; }
+  body .footer {
+    height: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border: none;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    width: 100%; }
+    body .footer .side-one {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-preferred-size: 70%;
+      flex-basis: 70%;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+      flex-flow: column nowrap;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      padding-left: 5%; }
+      body .footer .side-one .invite-users {
+        font-size: 22px;
+        font-family: granary;
+        color: #040404;
+        line-height: 1.9; }
+      body .footer .side-one .create-grid {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap; }
+        body .footer .side-one .create-grid .lets-create {
+          position: relative;
+          top: -15px;
+          font-family: calibre-light;
+          font-size: 18px;
+          text-decoration: underline;
+          -webkit-text-decoration-color: #E5E7E9;
+          text-decoration-color: #E5E7E9;
+          margin-right: 40px; }
+          body .footer .side-one .create-grid .lets-create:hover {
+            cursor: pointer;
+            -webkit-text-decoration-color: #ff183f;
+            text-decoration-color: #ff183f; }
+    body .footer .side-two {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-preferred-size: 20%;
+      flex-basis: 20%;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+      flex-flow: column nowrap;
+      padding-top: 10px; }
+      body .footer .side-two .Truly-brilliant {
+        font-family: calibre-light;
+        font-size: 20px;
+        margin-bottom: 6px; }
+      body .footer .side-two .name {
+        font-size: 18px;
+        font-weight: bolder;
+        font-family: gotham;
+        margin-bottom: 6px; }
+      body .footer .side-two .addy {
+        font-size: 14px;
+        font-family: apercu; }
+        body .footer .side-two .addy span {
+          text-decoration: underline;
+          -webkit-text-decoration-color: #ff183f;
+          text-decoration-color: #ff183f; }
+          body .footer .side-two .addy span:hover {
+            cursor: pointer;
+            text-decoration: none; }
+
+.__logo__ {
+  height: 50px;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover; }
+
+.protheo-header {
+  height: 5%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -ms-flex-pack: distribute;
+  justify-content: space-around; }
+  .protheo-header .protheo-header-banner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: gotham; }
+  .protheo-header .protheo-header-items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-preferred-size: 45%;
+    flex-basis: 45%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly; }
+    .protheo-header .protheo-header-items .p-text {
+      font-size: 19px;
+      font-family: calibre-light; }
+    .protheo-header .protheo-header-items .p-button {
+      height: 25px;
+      width: 135px;
+      font-size: 12px;
+      text-align: center;
+      padding-top: 14.5px;
+      font-size: 12.5px;
+      height: 20px;
+      background-color: #ff183f;
+      border-radius: 3px;
+      font-family: apercu;
+      color: white;
+      padding-top: 7px;
+      font-size: 13px;
+      position: relative;
+      bottom: -20%; }
+      .protheo-header .protheo-header-items .p-button:hover {
+        cursor: pointer; }
+
+@media only screen and (max-width: 480px) {
+  .protheo-header {
+    height: 2% !important;
+    position: relative !important; }
+    .protheo-header .protheo-header-banner {
+      -ms-flex-preferred-size: 10% !important;
+      flex-basis: 10% !important; }
+    .protheo-header .protheo-header-items {
+      -ms-flex-preferred-size: 100% !important;
+      flex-basis: 100% !important; }
+  .footer {
+    height: auto !important; }
+    .footer .invite-users {
+      font-size: 18px !important; }
+    .footer .lets-create {
+      font-size: 15px !important; }
+    .footer .side-one {
+      -ms-flex-preferred-size: 70% !important;
+      flex-basis: 70% !important; }
+    .footer .Truly-brilliant {
+      display: none; }
+    .footer .side-two {
+      -ms-flex-preferred-size: 25% !important;
+      flex-basis: 25% !important;
+      position: relative;
+      -webkit-box-pack: end;
+      -ms-flex-pack: end;
+      justify-content: flex-end;
+      padding-bottom: 7%; }
+      .footer .side-two .addy {
+        font-size: 14px !important; } }
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .protheo-header-items {
+    -ms-flex-preferred-size: 75% !important;
+    flex-basis: 75% !important; } }
+
+@font-face {
+  font-family: granary;
+  src: url("./fonts/granary.otf"); }
+
+@font-face {
+  font-family: gotham;
+  src: url("./fonts/gotham-b.ttf"); }
+
+@font-face {
+  font-family: acumin;
+  src: url("./fonts/acumin.otf"); }
+
+@font-face {
+  font-family: apercu;
+  src: url("./fonts/apercu.otf"); }
+
+@font-face {
+  font-family: calibre;
+  src: url("./fonts/Calibre/Calibre Medium.otf"); }
+
+@font-face {
+  font-family: calibre-bold;
+  src: url("./fonts/Calibre/Calibre Bold.otf"); }
+
+@font-face {
+  font-family: calibre-light;
+  src: url("./fonts/Calibre/Calibre Light.otf"); }
+
+@font-face {
+  font-family: acumin-light;
+  src: url("./fonts/Acumin Pro Light.otf"); }

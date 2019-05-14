@@ -1,0 +1,132 @@
+@import './mixins/variables.scss';
+@import './mixins/buttons.scss';
+
+body {
+    margin: 0;
+    @include footer
+}
+
+.__logo__ {
+    height: 50px;
+    width: 100%;
+    object-fit: cover;
+}
+.protheo-header {
+    height: 5%;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+    .protheo-header-banner {
+        display: flex;
+        font-size: 20px;
+        font-weight: bolder;
+        font-family: gotham;
+    }
+    .protheo-header-items {
+        display: flex; 
+        flex-basis: 45%;
+        flex-flow: row nowrap;
+        justify-content: space-evenly;
+        .p-text {
+            font-size: 19px;
+            font-family: calibre-light;
+        }
+        .p-button {
+            @include button-md;
+            height: 20px;
+            background-color: $red;
+            border-radius: 3px;
+            font-family: apercu;
+            color: white;
+            padding-top: 7px; 
+            font-size: 13px;
+            position: relative;
+            bottom: -20%;
+        }
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .protheo-header {
+        height: 2% !important;
+        position: relative !important;
+        .protheo-header-banner {
+            flex-basis: 10% !important;
+        }
+        .protheo-header-items {
+            flex-basis: 100% !important;
+        }
+    }
+    .footer {
+        height: auto !important;
+        .invite-users {
+            font-size: 18px !important;
+        }
+        .lets-create {
+            font-size: 15px !important;
+        }
+        .side-one {
+            flex-basis: 70% !important;
+        }
+        .Truly-brilliant {
+            display: none;
+        }
+
+        .side-two {
+            flex-basis: 25% !important;
+            position: relative;
+            justify-content: flex-end;
+            padding-bottom: 7%;
+            .addy {
+                font-size: 14px !important;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .protheo-header-items {
+        flex-basis: 75% !important;
+    }
+}
+
+@font-face {
+    font-family: granary;
+    src: url('./fonts/granary.otf');
+  }
+  
+  @font-face {
+    font-family: gotham;
+    src: url('./fonts/gotham-b.ttf');
+  }
+  
+  @font-face {
+    font-family: acumin;
+    src: url('./fonts/acumin.otf');
+  }
+  @font-face {
+    font-family: apercu;
+    src: url('./fonts/apercu.otf');
+  }
+
+  @font-face {
+      font-family: calibre;
+      src: url('./fonts/Calibre/Calibre Medium.otf')
+  }
+
+  @font-face {
+    font-family: calibre-bold;
+    src: url('./fonts/Calibre/Calibre\ Bold.otf')
+}
+
+@font-face {
+    font-family: calibre-light;
+    src: url('./fonts/Calibre/Calibre\ Light.otf')
+}
+
+@font-face {
+    font-family: acumin-light;
+    src: url('./fonts/Acumin Pro Light.otf')
+}

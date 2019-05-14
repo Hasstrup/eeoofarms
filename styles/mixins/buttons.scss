@@ -1,0 +1,104 @@
+@import './variables.scss';
+
+@mixin button-md {
+    height: 25px;
+    width: 135px;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 14.5px;
+    font-size: 12.5px;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+@mixin horizontal-grid {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+@mixin default-text {
+    font-family: acumin-light;
+    font-size: 1.1rem;
+    color: #0e0e0e;
+    line-height: 1.5;
+    letter-spacing: .02em;
+    font-weight: 300;
+}
+
+@mixin footer {
+    .footer {
+        height: 200px;
+        display: flex;
+        border: none;
+        flex-flow: row wrap;
+        width: 100%;
+        .side-one {
+            display: flex;
+            flex-basis: 70%;
+            flex-flow: column nowrap;
+            justify-content: center;
+            padding-left: 5%;
+            .invite-users {
+                font-size: 22px;
+                font-family: granary;
+                color: $defaultBlack;
+                line-height: 1.9;
+            }
+            .create-grid {
+                display: flex;
+                flex-flow: row wrap;
+
+                .lets-create {
+                    position: relative;
+                    top: -15px;
+                    font-family: calibre-light;
+                    font-size: 18px;
+                    text-decoration: underline;
+                    text-decoration-color: #E5E7E9;
+                    margin-right: 40px;
+                    &:hover {
+                        cursor: pointer;
+                        text-decoration-color: $red;
+                    }
+                }
+            }
+     
+        
+        }
+        .side-two {
+            display: flex;
+            flex-basis: 20%;
+            flex-flow: column nowrap;
+            padding-top: 10px;
+            .Truly-brilliant {
+                font-family: calibre-light;
+                font-size: 20px;
+                margin-bottom: 6px;
+            }
+
+            .name {
+                font-size: 18px;
+                font-weight: bolder;
+                font-family: gotham;
+                margin-bottom: 6px;
+            }
+
+            .addy {
+                font-size: 14px;
+                font-family: apercu;
+                span {
+                    text-decoration: underline;
+                    text-decoration-color: $red;
+                    &:hover {
+                        cursor: pointer;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}

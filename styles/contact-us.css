@@ -1,0 +1,201 @@
+body .__main__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 120vh;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  body .__main__body .__section__divider {
+    width: 200px;
+    float: left;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    background-color: #E5E7E9;
+    outline-color: #E5E7E9;
+    margin-bottom: 10%; }
+  body .__main__body .main__body__section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-preferred-size: 38%;
+    flex-basis: 38%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column nowrap;
+    flex-flow: column nowrap; }
+    body .__main__body .main__body__section.--one {
+      height: 100%; }
+      body .__main__body .main__body__section.--one p {
+        margin-bottom: -.5%; }
+      body .__main__body .main__body__section.--one .__one__ {
+        margin-bottom: 8%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+        flex-flow: column nowrap; }
+        body .__main__body .main__body__section.--one .__one__.__text__content {
+          width: 100%;
+          -ms-flex-preferred-size: 20%;
+          flex-basis: 20%; }
+          body .__main__body .main__body__section.--one .__one__.__text__content .__great__people {
+            font-size: 25px;
+            font-family: granary; }
+          body .__main__body .main__body__section.--one .__one__.__text__content .__great__engineering {
+            font-size: 25px;
+            font-family: granary; }
+          body .__main__body .main__body__section.--one .__one__.__text__content .__lets__create {
+            font-size: 20px;
+            font-family: calibre-light; }
+        body .__main__body .main__body__section.--one .__one__.form__content__ {
+          -ms-flex-preferred-size: 60%;
+          flex-basis: 60%;
+          border-top: .5px solid #E5E7E999;
+          padding-top: 5%;
+          width: 90%;
+          height: 65vh; }
+          body .__main__body .main__body__section.--one .__one__.form__content__ .__form__ {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            height: 100%;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+            justify-content: space-between; }
+            body .__main__body .main__body__section.--one .__one__.form__content__ .__form__ .__form__content {
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              -ms-flex-preferred-size: 20%;
+              flex-basis: 20%;
+              -webkit-box-orient: vertical;
+              -webkit-box-direction: normal;
+              -ms-flex-flow: column nowrap;
+              flex-flow: column nowrap; }
+              body .__main__body .main__body__section.--one .__one__.form__content__ .__form__ .__form__content label {
+                font-size: 16px;
+                font-family: acumin-light;
+                margin-bottom: 20px; }
+              body .__main__body .main__body__section.--one .__one__.form__content__ .__form__ .__form__content input {
+                outline: none;
+                border: 0;
+                font-size: 16px;
+                font-family: calibre-light;
+                color: #303030;
+                border-bottom: 1px solid #90949760; }
+              body .__main__body .main__body__section.--one .__one__.form__content__ .__form__ .__form__content.__text__content {
+                -ms-flex-preferred-size: 45%;
+                flex-basis: 45%; }
+                body .__main__body .main__body__section.--one .__one__.form__content__ .__form__ .__form__content.__text__content textarea {
+                  padding: 10px;
+                  border: 1px solid #90949760;
+                  height: 100%;
+                  outline: none;
+                  font-family: calibre-light;
+                  font-size: 16px;
+                  color: #303030; }
+              body .__main__body .main__body__section.--one .__one__.form__content__ .__form__ .__form__content.__button__container {
+                position: relative;
+                bottom: -6%; }
+              body .__main__body .main__body__section.--one .__one__.form__content__ .__form__ .__form__content button {
+                height: 25px;
+                width: 135px;
+                font-size: 12px;
+                text-align: center;
+                padding-top: 14.5px;
+                font-size: 12.5px;
+                background-color: #ff183f;
+                border: none;
+                border-radius: 17px;
+                color: white;
+                height: 37px;
+                width: 127px;
+                font-size: 15px;
+                padding-top: 8px;
+                font-family: apercu; }
+                body .__main__body .main__body__section.--one .__one__.form__content__ .__form__ .__form__content button:hover {
+                  cursor: pointer; }
+    body .__main__body .main__body__section.__two__ {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+      flex-flow: column nowrap;
+      padding-top: 11%; }
+      body .__main__body .main__body__section.__two__ .__content__grid {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-preferred-size: 16%;
+        flex-basis: 16%;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap; }
+        body .__main__body .main__body__section.__two__ .__content__grid .__content__grid__item {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+          -ms-flex-preferred-size: 33%;
+          flex-basis: 33%; }
+          body .__main__body .main__body__section.__two__ .__content__grid .__content__grid__item .__item__title {
+            font-family: acumin;
+            font-size: 17px;
+            margin-bottom: 2%; }
+          body .__main__body .main__body__section.__two__ .__content__grid .__content__grid__item .item__container__ p {
+            font-size: 16px;
+            width: 90%;
+            font-family: calibre-light; }
+            body .__main__body .main__body__section.__two__ .__content__grid .__content__grid__item .item__container__ p .__highlighter__ {
+              color: #ff183f; }
+      body .__main__body .main__body__section.__two__ .__image__holder {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+        flex-flow: column nowrap;
+        padding: 3%; }
+        body .__main__body .main__body__section.__two__ .__image__holder .spotlight__image {
+          height: 90%;
+          width: 100%;
+          -o-object-fit: cover;
+          object-fit: cover; }
+
+@media only screen and (max-width: 480px) {
+  body .__main__body {
+    -ms-flex-wrap: wrap !important;
+    flex-wrap: wrap !important;
+    padding-left: 5% !important; }
+  body .main__body__section {
+    -ms-flex-preferred-size: 100% !important;
+    flex-basis: 100% !important; } }
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  body .__main__body {
+    -ms-flex-wrap: wrap !important;
+    flex-wrap: wrap !important;
+    padding-left: 5% !important; }
+  body .main__body__section {
+    -ms-flex-preferred-size: 100% !important;
+    flex-basis: 100% !important; } }
