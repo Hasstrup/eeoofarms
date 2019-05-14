@@ -87,8 +87,8 @@ body {
             margin-right: 40px; }
             body .main-page-container .footer .side-one .create-grid .lets-create:hover {
               cursor: pointer;
-              -webkit-text-decoration-color: #ff183f;
-              text-decoration-color: #ff183f; }
+              -webkit-text-decoration-color: #28B463;
+              text-decoration-color: #28B463; }
       body .main-page-container .footer .side-two {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -114,8 +114,8 @@ body {
           font-family: apercu; }
           body .main-page-container .footer .side-two .addy span {
             text-decoration: underline;
-            -webkit-text-decoration-color: #ff183f;
-            text-decoration-color: #ff183f; }
+            -webkit-text-decoration-color: #28B463;
+            text-decoration-color: #28B463; }
             body .main-page-container .footer .side-two .addy span:hover {
               cursor: pointer;
               text-decoration: none; }

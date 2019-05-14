@@ -93,7 +93,7 @@ body {
                                 }
                                 button {
                                     @include button-md;
-                                    background-color: $red;
+                                    background-color: #28B463;
                                     border: none;
                                     border-radius: 17px;
                                     color: white;
@@ -131,7 +131,7 @@ body {
                                 width: 90%;
                                 font-family: calibre-light;
                                 .__highlighter__ {
-                                    color: $red;
+                                    color: #28B463;
                                 }
                             }
                         }

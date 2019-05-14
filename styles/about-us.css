@@ -168,9 +168,9 @@ body {
           padding-left: 2%; }
           body .__main__body .--insights .__insights__grid .insights__grid__item:hover {
             cursor: pointer;
-            background-color: #ff183f;
+            background-color: #28B463;
             color: white;
-            border-color: #ff183f; }
+            border-color: #28B463; }
             body .__main__body .--insights .__insights__grid .insights__grid__item:hover .__author__avatar {
               -webkit-filter: grayscale(100);
               filter: grayscale(100); }
@@ -342,8 +342,8 @@ body {
           border-color: #E74C3C30; }
           body .__main__body .--testimonial .--open-source:hover .open-source-text span {
             text-decoration: underline;
-            -webkit-text-decoration-color: #ff183f;
-            text-decoration-color: #ff183f; }
+            -webkit-text-decoration-color: #28B463;
+            text-decoration-color: #28B463; }
         body .__main__body .--testimonial .--open-source svg {
           position: relative;
           bottom: -30px; }

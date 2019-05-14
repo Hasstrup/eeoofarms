@@ -133,9 +133,9 @@ body {
                     &:hover {
                         // border-color: #EC706370;
                         cursor: pointer;
-                        background-color: $red;
+                        background-color: #28B463;
                         color: white; 
-                        border-color: $red;
+                        border-color: #28B463;
                         .__author__avatar {
                             filter: grayscale(100)
                         }
@@ -285,7 +285,7 @@ body {
                     .open-source-text {
                         span {
                             text-decoration: underline;
-                            text-decoration-color: $red;
+                            text-decoration-color: #28B463;
                         }
                     }
                   

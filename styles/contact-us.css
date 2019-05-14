@@ -120,7 +120,7 @@ body .__main__body {
                 text-align: center;
                 padding-top: 14.5px;
                 font-size: 12.5px;
-                background-color: #ff183f;
+                background-color: #28B463;
                 border: none;
                 border-radius: 17px;
                 color: white;
@@ -166,7 +166,7 @@ body .__main__body {
             width: 90%;
             font-family: calibre-light; }
             body .__main__body .main__body__section.__two__ .__content__grid .__content__grid__item .item__container__ p .__highlighter__ {
-              color: #ff183f; }
+              color: #28B463; }
       body .__main__body .main__body__section.__two__ .__image__holder {
         display: -webkit-box;
         display: -ms-flexbox;

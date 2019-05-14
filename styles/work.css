@@ -22,6 +22,33 @@
   100% {
     opacity: 1; } }
 
+.large-banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 2%;
+  min-height: 12vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  font-family: gotham;
+  color: black;
+  font-size: 2.4em;
+  font-weight: bold; }
+  .large-banner p {
+    width: 50%;
+    text-align: center;
+    line-height: 58px; }
+  .large-banner span {
+    text-decoration: underline;
+    -webkit-text-decoration-color: #239B56;
+    text-decoration-color: #239B56; }
+
 .main-page-container {
   min-height: 100vh;
   width: 96%;
@@ -73,7 +100,7 @@
         top: 0;
         height: 100%;
         width: 100%;
-        background-color: #00000070;
+        background-color: #239B5670;
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
@@ -117,4 +144,14 @@
 @media only screen and (max-width: 480px) {
   .content-card {
     -ms-flex-preferred-size: 90% !important;
-    flex-basis: 90% !important; } }
+    flex-basis: 90% !important; }
+  .large-banner {
+    font-size: 1.5em; }
+    .large-banner p {
+      width: 80%; } }
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .large-banner {
+    font-size: 1.7em; }
+    .large-banner p {
+      width: 70%; } }
