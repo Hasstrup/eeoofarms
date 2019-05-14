@@ -298,7 +298,7 @@ body {
             body .__main__body .--testimonial .--testimonial-item .--testimonial__tablet .__testimonial__tablet__tab .__spotlight__text {
               height: 20px;
               width: 95px;
-              background-color: #E74C3C;
+              background-color: #F4D03F;
               text-align: center;
               font-family: apercu;
               position: absolute;
@@ -339,7 +339,7 @@ body {
         justify-content: space-evenly; }
         body .__main__body .--testimonial .--open-source:hover {
           cursor: pointer;
-          border-color: #E74C3C30; }
+          border-color: #F4D03F50; }
           body .__main__body .--testimonial .--open-source:hover .open-source-text span {
             text-decoration: underline;
             -webkit-text-decoration-color: #28B463;

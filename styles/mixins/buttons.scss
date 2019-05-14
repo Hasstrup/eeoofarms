@@ -36,6 +36,8 @@
         border: none;
         flex-flow: row wrap;
         width: 100%;
+        border-top: .5px solid #E5E7E9 !important;
+        background-color: #f6f9fc;
         .side-one {
             display: flex;
             flex-basis: 70%;
