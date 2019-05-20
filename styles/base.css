@@ -12,7 +12,8 @@ body {
     flex-flow: row wrap;
     width: 100%;
     border-top: .5px solid #E5E7E9 !important;
-    background-color: #f6f9fc; }
+    background-color: #186A3B;
+    color: white; }
     body .footer .side-one {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -30,7 +31,7 @@ body {
       body .footer .side-one .invite-users {
         font-size: 22px;
         font-family: granary;
-        color: #040404;
+        color: white;
         line-height: 1.9; }
       body .footer .side-one .create-grid {
         display: -webkit-box;
@@ -83,12 +84,33 @@ body {
           body .footer .side-two .addy span:hover {
             cursor: pointer;
             text-decoration: none; }
+  body .backdrop {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    z-index: -1;
+    opacity: .2; }
+    body .backdrop .__image__banner {
+      -o-object-fit: contain;
+      object-fit: contain;
+      height: 25%;
+      width: 60%; }
 
 .__logo__ {
-  height: 60px;
+  height: 80px;
   width: 100%;
-  -o-object-fit: cover;
-  object-fit: cover; }
+  -o-object-fit: contain;
+  object-fit: contain; }
 
 .protheo-header {
   height: 5%;
@@ -102,6 +124,11 @@ body {
   flex-flow: row wrap;
   -ms-flex-pack: distribute;
   justify-content: space-around; }
+  .protheo-header .image-banner {
+    height: 45px;
+    width: 180px;
+    -o-object-fit: cover;
+    object-fit: cover; }
   .protheo-header .protheo-header-banner {
     display: -webkit-box;
     display: -ms-flexbox;

@@ -58,7 +58,7 @@ body .__main__body {
             font-family: granary; }
           body .__main__body .main__body__section.--one .__one__.__text__content .__lets__create {
             font-size: 20px;
-            font-family: calibre-light; }
+            font-family: Roboto; }
         body .__main__body .main__body__section.--one .__one__.form__content__ {
           -ms-flex-preferred-size: 60%;
           flex-basis: 60%;
@@ -94,9 +94,11 @@ body .__main__body {
                 margin-bottom: 20px; }
               body .__main__body .main__body__section.--one .__one__.form__content__ .__form__ .__form__content input {
                 outline: none;
-                border: 0;
+                border: none;
+                height: 45px;
+                background-color: #D5F5E3;
                 font-size: 16px;
-                font-family: calibre-light;
+                font-family: Roboto;
                 color: #303030;
                 border-bottom: 1px solid #90949760; }
               body .__main__body .main__body__section.--one .__one__.form__content__ .__form__ .__form__content.__text__content {
@@ -107,7 +109,8 @@ body .__main__body {
                   border: 1px solid #90949760;
                   height: 100%;
                   outline: none;
-                  font-family: calibre-light;
+                  background-color: #D5F5E3;
+                  font-family: Roboto;
                   font-size: 16px;
                   color: #303030; }
               body .__main__body .main__body__section.--one .__one__.form__content__ .__form__ .__form__content.__button__container {
@@ -136,7 +139,7 @@ body .__main__body {
       -webkit-box-direction: normal;
       -ms-flex-flow: column nowrap;
       flex-flow: column nowrap;
-      padding-top: 11%; }
+      padding-top: 2%; }
       body .__main__body .main__body__section.__two__ .__content__grid {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -164,7 +167,7 @@ body .__main__body {
           body .__main__body .main__body__section.__two__ .__content__grid .__content__grid__item .item__container__ p {
             font-size: 16px;
             width: 90%;
-            font-family: calibre-light; }
+            font-family: Roboto; }
             body .__main__body .main__body__section.__two__ .__content__grid .__content__grid__item .item__container__ p .__highlighter__ {
               color: #28B463; }
       body .__main__body .main__body__section.__two__ .__image__holder {

@@ -4,17 +4,33 @@
 
 body {
     margin: 0;
+    .backdrop {
+        position: absolute;
+        top: 0; 
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 30%;
+        opacity: .2;
+        z-index: -1;
+        .image-banner {
+            height: 200px;
+            width: 940px;
+            object-fit: cover;
+        }
+    }
     .protheo-header {
         height: 7%;
         position: fixed;
-        z-index: 3;
+        z-index: 2; 
         background-color: white;
-        border-bottom: .5px solid #E5E7E960; 
-    }
+        border-bottom: .5px solid #E5E7E960;
+    }   
     .footer {
         border-top: .5px solid #E5E7E9;
-        background-color: #f6f9fc;
-    }
+    } 
     .__main__body {
         display: flex;
         flex-flow: column nowrap;
@@ -33,6 +49,7 @@ body {
             .--text-holder {
                 flex-basis: 35%;
                 height: 54vh;
+                background-color: #f0f7f4;
                 flex-flow: column nowrap;
                 justify-content: center;
                 align-items: center;
@@ -76,8 +93,11 @@ body {
             flex-flow: row wrap;
             justify-content: space-around;
             width: 100%;
-            .--image-holder {
+            .--text-holder { 
                 flex-basis: 50%;
+            }
+            .--image-holder {
+                flex-basis: 40%;
                 height: 54vh;
                 padding-left: 10%;
                 flex-flow: column nowrap;

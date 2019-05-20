@@ -37,7 +37,8 @@
         flex-flow: row wrap;
         width: 100%;
         border-top: .5px solid #E5E7E9 !important;
-        background-color: #f6f9fc;
+        background-color: #186A3B;
+        color: white;
         .side-one {
             display: flex;
             flex-basis: 70%;
@@ -47,7 +48,7 @@
             .invite-users {
                 font-size: 22px;
                 font-family: granary;
-                color: $defaultBlack;
+                color: white;
                 line-height: 1.9;
             }
             .create-grid {

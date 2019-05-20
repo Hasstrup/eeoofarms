@@ -64,7 +64,7 @@ body {
                 width: 100%
             }
             .content-banner-container {
-                background-color: #00000060;
+                background-color: #00000010;
                 position: absolute;
                 z-index: 2;
                 top: 0;
@@ -142,7 +142,7 @@ body {
         .who-we-are-grid {
             display: flex;
             flex-basis: 60%;
-            width: 100%;
+            // width: 100%;
             flex-flow: row wrap;
             .embedded-item {
                 display: flex;
@@ -152,6 +152,7 @@ body {
                 padding-left: 10%;
             }
             .who-we-are-text {
+                flex-basis: 30%;
                 .brilliant-people {
                     font-size:22px;
                     color: #28B463;
@@ -167,10 +168,46 @@ body {
                 }
             }
             .image-text-reel {
-                padding: 2% 2% 3% 0;
-                flex-basis: 45%;
-                .mid-img {
+                // padding: 2% 2% 3% 0;
+                position: relative;
+                .backdrop__ {
+                    display: flex;
+                    position: absolute;
+                    top: 0;
+                    height: 100%;
                     width: 100%;
+                    z-index: 2;
+                    background-color: #145A3299;
+                    flex-flow: column nowrap;
+                    align-items: center;
+                    justify-content: center;
+                    p {
+                        font-size: 38px;
+                        font-weight: 500;
+                        width: 80%;
+                        text-align: center;
+                        line-height: 49px;
+                        font-family: gotham;
+                        color: white;
+                    }
+                    .__button__md {
+                        height: 40px;
+                        width: 150px;
+                        text-align: center;
+                        font-size: 16px;
+                        color: white;
+                        padding-top: 20px;
+                        font-family: Roboto;
+                        border-radius: 15px;
+                        background-color:#E67E22;
+                        &:hover {
+                            cursor: pointer;
+                        }
+                    }
+                }
+                flex-basis: 40%;
+                .mid-img {
+                    width: 125%;
                     object-fit: cover;
                 }
             }
@@ -182,7 +219,7 @@ body {
             flex-basis: 420px;
             width: 100%;
             padding-bottom: 5%;
-            background-color: $background;
+            background-color: #f0f7f4;
             @include horizontal-grid;
             .embeddded-content {
                 display: flex;

@@ -44,7 +44,7 @@ body {
                         }
                         .__lets__create {
                             font-size: 20px;
-                            font-family: calibre-light;
+                            font-family: Roboto;
                         }
                     }
                     &.form__content__ {
@@ -69,9 +69,11 @@ body {
                                 }
                                 input {
                                     outline: none;
-                                    border: 0;
+                                    border: none;
+                                    height: 45px;
+                                    background-color: #D5F5E3;
                                     font-size: 16px;
-                                    font-family: calibre-light;
+                                    font-family: Roboto;
                                     color: #303030;
                                     border-bottom: 1px solid #90949760;
                                 }
@@ -82,7 +84,8 @@ body {
                                         border: 1px solid #90949760;
                                         height: 100%;
                                         outline: none;
-                                        font-family: calibre-light;
+                                        background-color: #D5F5E3;
+                                        font-family: Roboto;
                                         font-size: 16px;
                                         color: #303030;
                                     }
@@ -111,7 +114,7 @@ body {
             }
             &.__two__ {
                 flex-flow: column nowrap;
-                padding-top: 11%;
+                padding-top: 2%;
                 .__content__grid {
                     display: flex;
                     flex-basis: 16%;
@@ -129,7 +132,7 @@ body {
                             p {
                                 font-size: 16px;
                                 width: 90%;
-                                font-family: calibre-light;
+                                font-family: Roboto;
                                 .__highlighter__ {
                                     color: #28B463;
                                 }
