@@ -12,6 +12,8 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
+        padding-top: 10%;
+        position: fixed;
         z-index: -1;
         opacity: .2;
         .__image__banner {

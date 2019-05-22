@@ -98,6 +98,8 @@ body {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    padding-top: 10%;
+    position: fixed;
     z-index: -1;
     opacity: .2; }
     body .backdrop .__image__banner {

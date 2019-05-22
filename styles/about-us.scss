@@ -47,7 +47,7 @@ body {
                 display: flex;
             }
             .--text-holder {
-                flex-basis: 35%;
+                flex-basis: 45%;
                 height: 54vh;
                 background-color: #f0f7f4;
                 flex-flow: column nowrap;
@@ -95,6 +95,7 @@ body {
             width: 100%;
             .--text-holder { 
                 flex-basis: 50%;
+                background-color: #FCF3CF80;
             }
             .--image-holder {
                 flex-basis: 40%;
