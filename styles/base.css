@@ -84,6 +84,116 @@ body {
           body .footer .side-two .addy span:hover {
             cursor: pointer;
             text-decoration: none; }
+  body .main-one {
+    -ms-flex-preferred-size: 550px;
+    flex-basis: 550px;
+    color: white;
+    position: relative; }
+    body .main-one .main-content-image {
+      -o-object-fit: cover;
+      object-fit: cover;
+      height: 550px;
+      width: 100%; }
+    body .main-one .content-banner-container {
+      background-color: #00000010;
+      position: absolute;
+      z-index: 2;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+      flex-flow: column nowrap;
+      -ms-flex-pack: distribute;
+      justify-content: space-around; }
+    body .main-one .protheo-header {
+      position: absolute;
+      z-index: 25;
+      top: 0;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      height: 51px;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+      flex-flow: row nowrap;
+      width: 100%;
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+      -webkit-box-align: start;
+      -ms-flex-align: start;
+      align-items: flex-start; }
+      body .main-one .protheo-header .protheo-header-trigger {
+        position: relative;
+        bottom: -10px; }
+      body .main-one .protheo-header .protheo-header-banner {
+        float: left; }
+      body .main-one .protheo-header .button-md {
+        height: 25px;
+        width: 135px;
+        font-size: 12px;
+        text-align: center;
+        padding-top: 14.5px;
+        font-size: 12.5px;
+        font-family: apercu;
+        font-weight: 500;
+        color: #040404;
+        background-color: white;
+        position: relative;
+        bottom: -9px; }
+        body .main-one .protheo-header .button-md:hover {
+          cursor: pointer; }
+        body .main-one .protheo-header .button-md:hover {
+          color: white;
+          background-color: #239B56;
+          border-radius: 2px; }
+    body .main-one .large-banner-main {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-preferred-size: 90%;
+      flex-basis: 90%;
+      width: 100%;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+      flex-flow: column nowrap;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      position: relative; }
+      body .main-one .large-banner-main .main-large-text {
+        font-size: 80px;
+        font-family: granary;
+        text-align: center;
+        font-weight: bolder;
+        line-height: 100px;
+        color: white;
+        width: 50%;
+        margin-bottom: 50px; }
+        body .main-one .large-banner-main .main-large-text .underline-red {
+          text-decoration: underline;
+          -webkit-text-decoration-color: #28B463;
+          text-decoration-color: #28B463; }
+      body .main-one .large-banner-main .subtitle-text {
+        font-family: apercu;
+        font-weight: light;
+        font-size: 13px;
+        text-align: center;
+        width: 40%;
+        color: #DEDEDE; }
+  body .slider__trigger {
+    color: white; }
+    body .slider__trigger:hover {
+      cursor: pointer; }
   body .backdrop {
     height: 100%;
     width: 100%;
@@ -101,12 +211,33 @@ body {
     padding-top: 10%;
     position: fixed;
     z-index: -1;
-    opacity: .2; }
+    opacity: 0.2; }
     body .backdrop .__image__banner {
       -o-object-fit: contain;
       object-fit: contain;
       height: 25%;
       width: 60%; }
+  body .slider-parent {
+    z-index: 10;
+    height: 100vh;
+    width: 90%;
+    background: #6c7a89;
+    position: fixed;
+    right: -90vw;
+    display: none;
+    opacity: 0;
+    pointer-events: none;
+    -webkit-transition: 0.2s all linear;
+    -o-transition: 0.2s all linear;
+    transition: 0.2s all linear; }
+    body .slider-parent.active {
+      display: block;
+      pointer-events: inherit;
+      -webkit-transition: 0.2s all ease-in-out;
+      -o-transition: 0.2s all ease-in-out;
+      transition: 0.2s all ease-in-out;
+      opacity: 1;
+      right: 0; }
 
 .__logo__ {
   height: 80px;
@@ -126,6 +257,9 @@ body {
   flex-flow: row wrap;
   -ms-flex-pack: distribute;
   justify-content: space-around; }
+  .protheo-header .header-item {
+    -ms-flex-preferred-size: 49%;
+    flex-basis: 49%; }
   .protheo-header .image-banner {
     height: 45px;
     width: 180px;
@@ -162,7 +296,7 @@ body {
       padding-top: 14.5px;
       font-size: 12.5px;
       height: 20px;
-      background-color: #28B463;
+      background-color: #28b463;
       border-radius: 3px;
       font-family: apercu;
       color: white;

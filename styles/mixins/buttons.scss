@@ -11,7 +11,95 @@
         cursor: pointer;
     }
 }
+@mixin carousel-layer {
+    .main-one {
+        flex-basis: 550px;
+        color: white;
+        position: relative;
+        .main-content-image {
+            object-fit: cover;
+            height: 550px;
+            width: 100%
+        }
+        .content-banner-container {
+            background-color: #00000010;
+            position: absolute;
+            z-index: 2;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: space-around;
+        }
+        .protheo-header {
+            position: absolute;
+            z-index: 25;
+            top: 0;
+            display: flex;
+            height: 51px;
+            flex-flow: row nowrap;
+            width: 100%;
+            justify-content: space-around;
+            align-items: flex-start;
+            .protheo-header-trigger {
+                position: relative;
+                bottom: -10px;
+            }
+            .protheo-header-banner {
+                float: left;
+            }
+            .button-md {
+                @include button-md;
+                font-family: apercu;
+                font-weight: 500;
+                color: $defaultBlack;
+                background-color: white;
+                position: relative;
+                bottom: -9px;
+                &:hover {
+                    color: white;
+                    background-color: #239B56;
+                    border-radius: 2px;
+                }
+            }
+        }
+     
+        .large-banner-main {
+            display: flex;
+            flex-basis: 90%;
+            width: 100%;
+            flex-flow: column nowrap;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            .main-large-text {
+                font-size: 80px;
+                font-family: granary; 
+                text-align: center;
+                font-weight: bolder;
+                line-height: 100px;
+                color: white;
+                width: 50%;
+                margin-bottom: 50px;
+                .underline-red {
+                    text-decoration: underline;
+                    text-decoration-color: #28B463
+                }
+            }
 
+            .subtitle-text {
+                font-family: apercu;
+                font-weight: light;
+                font-size: 13px; 
+                text-align: center;
+                width: 40%;
+                color: $altWhite
+            }
+
+        }
+    }
+}
 @mixin horizontal-grid {
     display: flex;
     height: 100%;
