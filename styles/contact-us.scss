@@ -126,6 +126,12 @@ body {
               margin-bottom: 2%;
             }
             .item__container__ {
+              svg {
+                margin-right: 10px;
+                &:hover {
+                  cursor: pointer;
+                }
+              }
               p {
                 font-size: 16px;
                 width: 90%;
