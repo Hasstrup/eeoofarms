@@ -9,3 +9,41 @@ Array.from(sliderTrigger).forEach((node) => {
      }
     });
 })
+
+const pagesList = {
+  index: ['farms-banner.png', 'EEOO FARMS 5.png', 'EEOO FARMS 6.png'],
+  products: ['EEOO FARMS 8.png', 'EEOO FARMS BANNER 1.jpg'],
+  'about-us': ['EEOO FARMS 4.png', 'EEOO FARMS 7.png'],
+  'contact-us': ['EEOO FARMS 3.png', 'EEOO FARMS BANNER png3.png']
+
+
+}
+const rotateImagesForPages = (page) => {
+  if (page == "blog") return;
+
+  let index = 0;
+  setInterval(() => {
+    const list = pagesList[page]
+    const url = `../assets/${list[index]}`
+    const parent = document.getElementsByClassName('main-content-container')[0]
+    const node = document.getElementsByClassName('main-content-image')[0]
+    node.remove()
+    const newNode = document.createElement('img')
+    newNode.classList.add('main-content-image', 'fade-in')
+    newNode.setAttribute('src', url)
+    node.setAttribute('src', url)
+    parent.appendChild(newNode)
+    if(index === list.length - 1) {
+      index = 0;
+    } else {
+      index += 1
+    }
+  }, 3500)
+} 
+
+const extractPath = () => {
+  const target = window.location.pathname.split('/').pop()
+  return target.split('.')[0]
+}
+
+rotateImagesForPages(extractPath())
