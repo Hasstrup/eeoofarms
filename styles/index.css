@@ -135,6 +135,8 @@ body {
       flex-basis: 550px;
       color: white;
       position: relative; }
+      body .main-page-container .main-one .main-content-container {
+        width: 100%; }
       body .main-page-container .main-one .main-content-image {
         -o-object-fit: cover;
         object-fit: cover;
@@ -222,10 +224,6 @@ body {
           color: white;
           width: 50%;
           margin-bottom: 50px; }
-          body .main-page-container .main-one .large-banner-main .main-large-text .underline-red {
-            text-decoration: underline;
-            -webkit-text-decoration-color: #28B463;
-            text-decoration-color: #28B463; }
         body .main-page-container .main-one .large-banner-main .subtitle-text {
           font-family: apercu;
           font-weight: light;

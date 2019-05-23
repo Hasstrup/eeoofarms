@@ -21,7 +21,7 @@ const pagesList = {
 const rotateImagesForPages = (page) => {
   if (page == "blog") return;
 
-  let index = 0;
+  let index = 1;
   setInterval(() => {
     const list = pagesList[page]
     const url = `../assets/${list[index]}`
