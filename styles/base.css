@@ -221,16 +221,16 @@ body {
     z-index: 10;
     background-color: #1d3b2d;
     border-bottom-left-radius: 710px;
-    height: 100vh;
-    width: 80%;
+    height: .1px;
+    width: .1px;
+    visibility: hidden;
     position: fixed;
     right: -90vw;
-    display: none;
     opacity: 0;
     pointer-events: none;
-    -webkit-transition: 0.2s all linear;
-    -o-transition: 0.2s all linear;
-    transition: 0.2s all linear; }
+    -webkit-transition: .5s all ease-in-out;
+    -o-transition: .5s all ease-in-out;
+    transition: .5s all ease-in-out; }
     body .slider-parent .slider-trigger {
       position: absolute;
       top: 10px;
@@ -271,11 +271,13 @@ body {
           width: 25%;
           background-color: #b1ddce; }
     body .slider-parent.active {
-      display: block;
+      visibility: visible;
       pointer-events: inherit;
-      -webkit-transition: 0.2s all ease-in-out;
-      -o-transition: 0.2s all ease-in-out;
-      transition: 0.2s all ease-in-out;
+      height: 100vh;
+      width: 80%;
+      -webkit-transition: .5s all ease-in-out;
+      -o-transition: .5s all ease-in-out;
+      transition: .5s all ease-in-out;
       opacity: 1;
       right: 0; }
 
