@@ -11,7 +11,7 @@ body {
     -ms-flex-flow: row wrap;
     flex-flow: row wrap;
     width: 100%;
-    border-top: .5px solid #E5E7E9 !important;
+    border-top: 0.5px solid #e5e7e9 !important;
     background-color: #1d3b2d;
     color: white; }
     body .footer .side-one {
@@ -47,13 +47,13 @@ body {
           font-family: calibre-light;
           font-size: 18px;
           text-decoration: underline;
-          -webkit-text-decoration-color: #E5E7E9;
-          text-decoration-color: #E5E7E9;
+          -webkit-text-decoration-color: #e5e7e9;
+          text-decoration-color: #e5e7e9;
           margin-right: 40px; }
           body .footer .side-one .create-grid .lets-create:hover {
             cursor: pointer;
-            -webkit-text-decoration-color: #28B463;
-            text-decoration-color: #28B463; }
+            -webkit-text-decoration-color: #28b463;
+            text-decoration-color: #28b463; }
     body .footer .side-two {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -79,8 +79,8 @@ body {
         font-family: apercu; }
         body .footer .side-two .addy span {
           text-decoration: underline;
-          -webkit-text-decoration-color: #28B463;
-          text-decoration-color: #28B463; }
+          -webkit-text-decoration-color: #28b463;
+          text-decoration-color: #28b463; }
           body .footer .side-two .addy span:hover {
             cursor: pointer;
             text-decoration: none; }
@@ -150,7 +150,7 @@ body {
           cursor: pointer; }
         body .main-one .protheo-header .button-md:hover {
           color: white;
-          background-color: #239B56;
+          background-color: #239b56;
           border-radius: 2px; }
     body .main-one .large-banner-main {
       display: -webkit-box;
@@ -179,6 +179,9 @@ body {
         color: white;
         width: 50%;
         margin-bottom: 50px; }
+        @media only screen and (max-width: 480px) {
+          body .main-one .large-banner-main .main-large-text {
+            width: 100%; } }
       body .main-one .large-banner-main .subtitle-text {
         font-family: apercu;
         font-weight: light;
@@ -186,6 +189,9 @@ body {
         text-align: center;
         width: 40%;
         color: #DEDEDE; }
+        @media only screen and (max-width: 480px) {
+          body .main-one .large-banner-main .subtitle-text {
+            width: 80%; } }
   body .slider__trigger {
     color: white; }
     body .slider__trigger:hover {

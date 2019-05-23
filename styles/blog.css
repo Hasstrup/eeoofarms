@@ -30,6 +30,14 @@ body .__blog__content__container {
     -webkit-box-direction: normal;
     -ms-flex-flow: column nowrap;
     flex-flow: column nowrap; }
+    @media screen and (max-width: 480px) {
+      body .__blog__content__container .__blog__item {
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%; } }
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
+      body .__blog__content__container .__blog__item {
+        -ms-flex-preferred-size: 50%;
+        flex-basis: 50%; } }
     body .__blog__content__container .__blog__item .blog__image__item {
       height: 60%;
       width: 100%;

@@ -80,7 +80,8 @@ body .__main__body {
             -webkit-box-orient: vertical;
             -webkit-box-direction: normal;
             -ms-flex-flow: column nowrap;
-            flex-flow: column nowrap; }
+            flex-flow: column nowrap;
+            margin-bottom: 20px; }
             body .__main__body .main__body__section.--one .__one__.form__content__ .__form__ .__form__content label {
               font-size: 16px;
               font-family: acumin-light;
@@ -143,8 +144,8 @@ body .__main__body {
         flex-basis: 16%;
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
-        -ms-flex-flow: row nowrap;
-        flex-flow: row nowrap;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
         width: 100%; }
         body .__main__body .main__body__section.__two__ .__content__grid .__content__grid__item {
           display: -webkit-box;
@@ -156,6 +157,10 @@ body .__main__body {
           flex-flow: column nowrap;
           -ms-flex-preferred-size: 33%;
           flex-basis: 33%; }
+          @media only screen and (max-width: 480px) {
+            body .__main__body .main__body__section.__two__ .__content__grid .__content__grid__item {
+              -ms-flex-preferred-size: 100% !important;
+              flex-basis: 100% !important; } }
           body .__main__body .main__body__section.__two__ .__content__grid .__content__grid__item .__item__title {
             font-family: gotham;
             font-size: 17px;

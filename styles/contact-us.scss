@@ -57,6 +57,7 @@ body {
                 display: flex;
                 flex-basis: 20%;
                 flex-flow: column nowrap;
+                margin-bottom: 20px;
                 label {
                   font-size: 16px;
                   font-family: acumin-light;
@@ -114,12 +115,15 @@ body {
         .__content__grid {
           display: flex;
           flex-basis: 16%;
-          flex-flow: row nowrap;
+          flex-flow: row wrap;
           width: 100%;
           .__content__grid__item {
             display: flex;
             flex-flow: column nowrap;
             flex-basis: 33%;
+            @media only screen and (max-width: 480px) { 
+              flex-basis: 100% !important;
+            }
             .__item__title {
               font-family: gotham;
               font-size: 17px;

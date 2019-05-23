@@ -145,6 +145,8 @@
   .content-card {
     -ms-flex-preferred-size: 90% !important;
     flex-basis: 90% !important; }
+  .main-large-text {
+    width: 70% !important; }
   .large-banner {
     font-size: 1.5em; }
     .large-banner p {

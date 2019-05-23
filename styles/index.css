@@ -49,7 +49,7 @@ body {
       -ms-flex-flow: row wrap;
       flex-flow: row wrap;
       width: 100%;
-      border-top: .5px solid #E5E7E9 !important;
+      border-top: 0.5px solid #e5e7e9 !important;
       background-color: #1d3b2d;
       color: white; }
       body .main-page-container .footer .side-one {
@@ -85,13 +85,13 @@ body {
             font-family: calibre-light;
             font-size: 18px;
             text-decoration: underline;
-            -webkit-text-decoration-color: #E5E7E9;
-            text-decoration-color: #E5E7E9;
+            -webkit-text-decoration-color: #e5e7e9;
+            text-decoration-color: #e5e7e9;
             margin-right: 40px; }
             body .main-page-container .footer .side-one .create-grid .lets-create:hover {
               cursor: pointer;
-              -webkit-text-decoration-color: #28B463;
-              text-decoration-color: #28B463; }
+              -webkit-text-decoration-color: #28b463;
+              text-decoration-color: #28b463; }
       body .main-page-container .footer .side-two {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -117,8 +117,8 @@ body {
           font-family: apercu; }
           body .main-page-container .footer .side-two .addy span {
             text-decoration: underline;
-            -webkit-text-decoration-color: #28B463;
-            text-decoration-color: #28B463; }
+            -webkit-text-decoration-color: #28b463;
+            text-decoration-color: #28b463; }
             body .main-page-container .footer .side-two .addy span:hover {
               cursor: pointer;
               text-decoration: none; }

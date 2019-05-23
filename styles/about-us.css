@@ -185,7 +185,7 @@ body {
         font-size: 1.1rem;
         color: #0e0e0e;
         line-height: 1.5;
-        letter-spacing: .02em;
+        letter-spacing: 0.02em;
         font-weight: 300;
         width: 60%;
         text-align: center;
@@ -370,7 +370,7 @@ body {
               font-size: 1.1rem;
               color: #0e0e0e;
               line-height: 1.5;
-              letter-spacing: .02em;
+              letter-spacing: 0.02em;
               font-weight: 300;
               font-family: calibre-light;
               color: #D7DBDD;
@@ -417,7 +417,7 @@ body {
           font-size: 1.1rem;
           color: #0e0e0e;
           line-height: 1.5;
-          letter-spacing: .02em;
+          letter-spacing: 0.02em;
           font-weight: 300;
           font-size: 16px; }
 
