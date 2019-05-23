@@ -1,0 +1,38 @@
+body {
+    .__blog__content__container {
+        min-height: 50vh;
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        padding-top: 5%;
+        &:hover {
+            cursor: pointer;
+        }
+        .__blog__item {
+            height: 250px;
+            display: flex;
+            flex-basis: 27%;
+            margin-right: 5%;
+            flex-flow: column nowrap;
+            .blog__image__item {
+                height: 60%;
+                width: 100%;
+                border-radius: 5px;
+                object-fit: cover;
+            }
+            .text__container {
+                .__blog__title {
+                    font-size: 16px;
+                    font-family: gotham;
+                }
+                .blog__date__ {
+                    color: #2bb673;
+                    font-family: calibre-light;
+                }
+            }
+        }
+    }
+}
