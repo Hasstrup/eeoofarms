@@ -679,20 +679,30 @@ body {
     width: 80% !important; }
   body .who-we-are-grid {
     -ms-flex-wrap: wrap !important;
-    flex-wrap: wrap !important; }
+    flex-wrap: wrap !important;
+    padding: 0 !important; }
     body .who-we-are-grid .embedded-item {
       -ms-flex-preferred-size: 100% !important;
-      flex-basis: 100% !important; }
-      body .who-we-are-grid .embedded-item.who-we-are-text .text-main {
-        width: 60% !important;
-        line-height: 34px; }
-      body .who-we-are-grid .embedded-item.who-we-are-text .text-description {
-        font-size: 15px !important;
-        width: 90% !important;
-        line-height: 25px !important;
-        margin-top: -2%; }
+      flex-basis: 100% !important;
+      padding-left: 0 !important; }
+      body .who-we-are-grid .embedded-item.who-we-are-text {
+        padding-left: 5% !important; }
+        body .who-we-are-grid .embedded-item.who-we-are-text .text-main {
+          width: 60% !important;
+          line-height: 34px; }
+        body .who-we-are-grid .embedded-item.who-we-are-text .text-description {
+          font-size: 15px !important;
+          width: 90% !important;
+          line-height: 25px !important;
+          margin-top: -2%; }
       body .who-we-are-grid .embedded-item.image-text-reel {
         padding: 5%; }
+        body .who-we-are-grid .embedded-item.image-text-reel .backdrop__ {
+          height: 95%; }
+          body .who-we-are-grid .embedded-item.image-text-reel .backdrop__ p {
+            font-size: 23px !important; }
+        body .who-we-are-grid .embedded-item.image-text-reel .mid-img {
+          width: 110% !important; }
   body .what-we-do-grid {
     -ms-flex-preferred-size: 40% !important;
     flex-basis: 40% !important; }

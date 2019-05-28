@@ -471,9 +471,12 @@ $briefPhoneBreakPoint: 600px;
        }
        .who-we-are-grid {
            flex-wrap: wrap !important;
+           padding: 0 !important;
            .embedded-item {
                flex-basis: 100% !important;
+               padding-left: 0 !important;
                &.who-we-are-text {
+                   padding-left: 5% !important;
                    .text-main {
                        width: 60% !important;
                        line-height: 34px;
@@ -487,6 +490,15 @@ $briefPhoneBreakPoint: 600px;
                }
                &.image-text-reel {
                    padding: 5%;
+                   .backdrop__ {
+                       height: 95%;
+                       p {
+                           font-size: 23px !important;
+                       }
+                   }
+                   .mid-img {
+                       width: 110% !important;
+                   }
                }
            }
        }

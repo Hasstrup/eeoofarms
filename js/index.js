@@ -1,8 +1,7 @@
 const ThingsWeDo = [
-    {"LIVESTOCK MANAGEMENT": "#F4D03F"},
-    {"INVENTORY MANAGEMENT": "#58D68D"},
-    {"NEXT LEVEL AGRICULTURAL ENGINEERING": "ff5851"},
-    {"OTHER STUFF YOU DO": "#ff5851"}
+    {"SNAIL FARMING": "#F4D03F"},
+    {"AGRICULTURAL INNOVATION": "#58D68D"},
+    {"STORAGE AND LOGISTICS": "ff5851"},
 ]
 
 let index = 0;
@@ -22,10 +21,10 @@ const ThrottleThingsWeDo = () => {
 }
 
 const technologies = [
-    "Digital Agricultural Innovation",
+    "Snail farming",
     "Farm retailing",
-    "stocklife trading",
-    "other stuff you do"
+    "Stocklife trading",
+    "Large scale retail"
 ]
 
 let i = 0
