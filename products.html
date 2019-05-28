@@ -30,10 +30,10 @@
         <path d="M2 30 L30 2 M30 30 L2 2" />
       </svg>
       <div class="content-list">
-        <a class="content-item">Home</a>
-        <a class="content-item">Products</a>
-        <a class="content-item">About Us</a>
-        <a class="content-item">Contact Us</a>
+        <a class="content-item" onclick="navigate('index')">Home</a>
+        <a class="content-item" onclick="navigate('products')">Products</a>
+        <a class="content-item" onclick="navigate('about-us')">About Us</a>
+        <a class="content-item" onclick="navigate('contact-us')">Contact Us</a>
         <hr class="content-item divider" />
       </div>
     </div>
@@ -49,6 +49,7 @@
               src="./assets/logo-white.png"
               class="image-banner"
               color="white"
+              onclick="navigate('index')"
             />
           </div>
           <div class="protheo-header-trigger slider-trigger">
@@ -187,16 +188,12 @@
             src="https://images.unsplash.com/reserve/RNm0KceQ4Gbpb0xldOe7_DSC_0679_2.JPG?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
           />
           <div class="img-description-main">
-            <p>
-             
-            </p>
+            <p></p>
           </div>
         </div>
         <div class="content-description">
           <p class="content-name">Plantains</p>
-          <p class="content-desc">
-            
-          </p>
+          <p class="content-desc"></p>
         </div>
       </div>
       <!-- End content card -->
@@ -209,9 +206,11 @@
           Want to know more about us?
         </p>
         <div class="create-grid">
-          <p class="lets-create">Products</p>
-          <p class="lets-create">Contact Us</p>
-          <p class="lets-create">Blog</p>
+          <p class="lets-create" onclick="navigate('products')">Products</p>
+          <p class="lets-create" onclick="navigate('contact-us')">
+            Contact Us
+          </p>
+          <p class="lets-create" onclick="navigate('blog')">Blog</p>
         </div>
       </div>
       <div class="side-two">

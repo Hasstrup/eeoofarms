@@ -6,6 +6,11 @@ body {
   @include footer;
   @include carousel-layer;
 
+  .image-banner {
+    &:hover {
+      cursor: pointer;
+    }
+  }
   .slider__trigger {
     color: white;
     &:hover {

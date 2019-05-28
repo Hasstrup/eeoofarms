@@ -29,10 +29,10 @@
         <path d="M2 30 L30 2 M30 30 L2 2" />
       </svg>
       <div class="content-list">
-        <a class="content-item">Home</a>
-        <a class="content-item">Products</a>
-        <a class="content-item">About Us</a>
-        <a class="content-item">Contact Us</a>
+        <a class="content-item" onclick="navigate('index')">Home</a>
+        <a class="content-item" onclick="navigate('products')">Products</a>
+        <a class="content-item" onclick="navigate('about-us')">About Us</a>
+        <a class="content-item" onclick="navigate('contact-us')">Contact Us</a>
         <hr class="content-item divider" />
       </div>
     </div>
@@ -40,7 +40,7 @@
     <div class="__main__body">
       <!-- START SIDE ONE -->
       <div class="content-embedded main-one">
-        <div class="main-content-container"> 
+        <div class="main-content-container">
           <img class="main-content-image" src="./assets/EEOO FARMS 3.png" />
         </div>
         <div class="content-banner-container">
@@ -52,6 +52,7 @@
                 src="./assets/logo-white.png"
                 class="image-banner"
                 color="white"
+                onclick="navigate('index')"
               />
             </div>
             <div class="protheo-header-trigger slider-trigger">
@@ -259,9 +260,11 @@
           Want to know more about us?
         </p>
         <div class="create-grid">
-          <p class="lets-create">Start a project</p>
-          <p class="lets-create">Blog</p>
-          <p class="lets-create">Work</p>
+          <p class="lets-create" onclick="navigate('products')">Products</p>
+          <p class="lets-create" onclick="navigate('contact-us')">
+            Contact Us
+          </p>
+          <p class="lets-create" onclick="navigate('blog')">Blog</p>
         </div>
       </div>
       <div class="side-two">
