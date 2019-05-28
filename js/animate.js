@@ -24,7 +24,7 @@ const rotateImagesForPages = (page) => {
   let index = 1;
   setInterval(() => {
     const list = pagesList[page]
-    const url = `../assets/${list[index]}`
+    const url = `./assets/${list[index]}`
     const parent = document.getElementsByClassName('main-content-container')[0]
     const node = document.getElementsByClassName('main-content-image')[0]
     node.remove()
@@ -44,6 +44,14 @@ const rotateImagesForPages = (page) => {
 const extractPath = () => {
   const target = window.location.pathname.split('/').pop()
   return target.split('.')[0]
+}
+
+const navigate = (path) => {
+  const { href } = window.location
+  const __href = href.split('/')
+  __href.pop()
+  __href.push(`${path}.html`)
+  window.location.href = __href.join('/')
 }
 
 rotateImagesForPages(extractPath())
