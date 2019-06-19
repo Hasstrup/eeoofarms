@@ -394,7 +394,9 @@ body {
   .content-list {
     padding-top: 50px !important; }
     .content-list .content-item {
-      font-size: 22px !important; } }
+      font-size: 22px !important; }
+    .content-list .slider__trigger {
+      right: 80px !important; } }
 
 @font-face {
   font-family: granary;
