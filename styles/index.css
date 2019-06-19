@@ -390,9 +390,9 @@ body {
             font-size: 14px; }
           body .main-page-container .what-we-do-grid .main-one-content .text-box .what-we-do-main {
             color: #313131;
-            font-family: calibre;
-            font-weight: 400;
-            font-size: 20px;
+            font-family: acumin-light;
+            line-height: 25px;
+            font-size: 17px;
             width: 96%; }
       body .main-page-container .what-we-do-grid .main-two-content {
         display: -webkit-box;
@@ -495,7 +495,7 @@ body {
             font-size: 14px; }
           body .main-page-container .what-we-have-done .main-content-three .text-box .what-we-do-main {
             color: #313131;
-            font-family: calibre;
+            font-family: acumin-light;
             font-weight: 400;
             font-size: 20px;
             width: 96%; }
@@ -789,7 +789,7 @@ body {
         -ms-flex-preferred-size: 20% !important;
         flex-basis: 20% !important; } }
 
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
+@media only screen and (min-width: 600px) and (max-width: 1023px) {
   .large-banner-main .main-large-text {
     width: 60% !important;
     font-size: 55px !important; }

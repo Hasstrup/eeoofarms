@@ -413,7 +413,7 @@ body {
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
+@media only screen and (min-width: 600px) and (max-width: 1023px) {
     .--text-holder__header {
         margin-bottom: 25% !important;
     }
@@ -478,5 +478,14 @@ body {
                 margin-top: 25px;
             }
         }
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    .--text-holder__header {
+        margin-bottom: 0 !important;
+    }
+    .__main__body__block {
+        margin-top: 10% !important;
     }
 }

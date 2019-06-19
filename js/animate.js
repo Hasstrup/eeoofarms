@@ -23,7 +23,7 @@ const rotateImagesForPages = (page) => {
 
   let index = 1;
   setInterval(() => {
-    const list = pagesList[page]
+    const list = pagesList[page] || pagesList.index
     const url = `./assets/${list[index]}`
     const parent = document.getElementsByClassName('main-content-container')[0]
     const node = document.getElementsByClassName('main-content-image')[0]

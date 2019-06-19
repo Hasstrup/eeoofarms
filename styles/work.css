@@ -115,7 +115,7 @@
           opacity: 1; }
         .main-page-container .content-card .content-img-description .img-description-main p {
           font-size: 19px;
-          font-family: granary;
+          font-family: acumin-light;
           width: 95%;
           text-align: center;
           line-height: 25px; }
@@ -150,10 +150,18 @@
   .large-banner {
     font-size: 1.5em; }
     .large-banner p {
-      width: 80%; } }
+      width: 80%; }
+  .img-description-main {
+    opacity: 1 !important; }
+    .img-description-main p {
+      font-size: 15px !important; } }
 
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
+@media only screen and (min-width: 600px) and (max-width: 1023px) {
   .large-banner {
     font-size: 1.7em; }
     .large-banner p {
-      width: 70%; } }
+      width: 70%; }
+  .img-description-main {
+    opacity: 1 !important; }
+    .img-description-main p {
+      font-size: 15px !important; } }

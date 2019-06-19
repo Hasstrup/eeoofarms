@@ -71,7 +71,7 @@
                 }
                 p {
                     font-size: 19px;
-                    font-family: granary;
+                    font-family: acumin-light;
                     width: 95%;
                     text-align: center;
                     line-height: 25px;
@@ -114,12 +114,24 @@
           width: 80%;
         }
     }
+    .img-description-main {
+        opacity: 1 !important; 
+        p {
+            font-size: 15px !important; 
+        }
+    }
 }
-@media only screen and (min-width: 768px) and (max-width: 1023px) { 
+@media only screen and (min-width: 600px) and (max-width: 1023px) { 
     .large-banner {
         font-size: 1.7em;
         p {
           width: 70%;
+        }
+    }
+    .img-description-main {
+        opacity: 1 !important; 
+        p {
+            font-size: 15px !important; 
         }
     }
 }
