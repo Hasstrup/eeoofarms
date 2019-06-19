@@ -188,19 +188,28 @@ body {
   .protheo-header-items {
     flex-basis: 75% !important;
   }
-}
-
-@media only screen and (min-width: 600px) and (max-width: 767px) { 
   .content-list {
     padding-top: 50px !important;
     .content-item {
       font-size: 22px !important;
     }
-    .slider__trigger {
-      right: 80px !important;
-    }
+  }
+  .slider-trigger {
+    right: 80px !important;
   }
 }
+
+// @media only screen and (min-width: 600px) and (max-width: 767px) { 
+//   .content-list {
+//     padding-top: 50px !important;
+//     .content-item {
+//       font-size: 22px !important;
+//     }
+//     .slider__trigger {
+//       right: 80px !important;
+//     }
+//   }
+// }
 
 @font-face {
   font-family: granary;
