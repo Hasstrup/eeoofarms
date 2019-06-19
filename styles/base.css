@@ -426,7 +426,7 @@ body {
 
 @font-face {
   font-family: acumin-light;
-  src: url("./fonts/Acumin Pro Light.otf"); }
+  src: url("./fonts/Calibre/Calibre Light.otf"); }
 
 .fade-in {
   -webkit-animation: fadeIn ease .5s;
