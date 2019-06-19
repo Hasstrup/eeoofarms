@@ -63,7 +63,7 @@ body {
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
-        font-family: acumin-light;
+        font-family: calibre-light;
         font-size: 1.02rem;
         color: #0e0e0e;
         line-height: 1.5;
@@ -181,7 +181,7 @@ body {
         width: 100%;
         text-align: center; }
       body .__main__body .--insights .--insights-caption {
-        font-family: acumin-light;
+        font-family: calibre-light;
         font-size: 1.1rem;
         color: #0e0e0e;
         line-height: 1.5;
@@ -281,7 +281,7 @@ body {
                 margin-bottom: -10px; }
               body .__main__body .--insights .__insights__grid .insights__grid__item .__grid__item__author__ .__author__desc .__author__role {
                 font-size: 13.5px;
-                font-family: acumin-light; }
+                font-family: calibre-light; }
     body .__main__body .--testimonial {
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
@@ -366,7 +366,7 @@ body {
               position: relative;
               bottom: -17%; }
             body .__main__body .--testimonial .--testimonial-item .--testimonial__tablet .__testimonial__tablet__tab .__testimonial__tablet__desc {
-              font-family: acumin-light;
+              font-family: calibre-light;
               font-size: 1.1rem;
               color: #0e0e0e;
               line-height: 1.5;
@@ -413,7 +413,7 @@ body {
         body .__main__body .--testimonial .--open-source .open-source-desc {
           text-align: center;
           width: 80%;
-          font-family: acumin-light;
+          font-family: calibre-light;
           font-size: 1.1rem;
           color: #0e0e0e;
           line-height: 1.5;
