@@ -254,7 +254,7 @@ body {
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
-        padding-left: 10%; }
+        padding-left: 7%; }
       body .main-page-container .who-we-are-grid .who-we-are-text {
         -ms-flex-preferred-size: 30%;
         flex-basis: 30%; }
@@ -267,6 +267,7 @@ body {
         body .main-page-container .who-we-are-grid .who-we-are-text .text-description {
           width: 70%;
           font-size: 18px;
+          line-height: 25px;
           font-family: calibre-light;
           color: #3C3C3D; }
       body .main-page-container .who-we-are-grid .image-text-reel {
@@ -465,7 +466,7 @@ body {
         height: 60%;
         position: relative;
         left: -5%;
-        padding-left: 10%;
+        padding-left: 7%;
         padding-top: 5%;
         overflow-y: hidden; }
         body .main-page-container .what-we-have-done .main-content-three .text-box {
@@ -496,8 +497,8 @@ body {
           body .main-page-container .what-we-have-done .main-content-three .text-box .what-we-do-main {
             color: #313131;
             font-family: calibre-light;
-            font-weight: 400;
-            font-size: 20px;
+            line-height: 25px;
+            font-size: 18px;
             width: 96%; }
     body .main-page-container .image-vertical-grid {
       display: -webkit-box;
@@ -516,7 +517,7 @@ body {
       -ms-flex-align: center;
       align-items: center; }
       body .main-page-container .image-vertical-grid .hoverable-image {
-        height: 110%;
+        height: 1calibre-light;
         width: 75%;
         margin-bottom: 20%;
         position: relative; }
