@@ -335,15 +335,15 @@ body {
       -webkit-box-direction: normal;
       -ms-flex-flow: row wrap;
       flex-flow: row wrap;
-      -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-      justify-content: space-evenly; }
+      -webkit-box-pack: space-between;
+      -ms-flex-pack: space-between;
+      justify-content: space-between; }
       body .main-page-container .what-we-do-grid .embeddded-content {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
         -ms-flex-preferred-size: 40%;
-        flex-basis: 40%; }
+        flex-basis: 45%; }
       body .main-page-container .what-we-do-grid .main-one-content {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -356,8 +356,8 @@ body {
         flex-flow: column nowrap;
         height: 60%;
         position: relative;
-        left: -5%;
-        padding-left: 50px;
+        
+        padding-left: 7%;
         padding-top: 2%; }
         body .main-page-container .what-we-do-grid .main-one-content .languages-used {
           font-family: apercu;
@@ -399,6 +399,7 @@ body {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
+        flex-basis: 60%;
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
