@@ -273,7 +273,7 @@ body {
       body .main-page-container .who-we-are-grid .image-text-reel {
         position: relative;
         -ms-flex-preferred-size: 40%;
-        flex-basis: 40%; }
+        flex-basis: 50%; }
         body .main-page-container .who-we-are-grid .image-text-reel .backdrop__ {
           display: -webkit-box;
           display: -ms-flexbox;
